@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+ <link rel="stylesheet" href="time.css">
+</head>
+<body>
+<h1>JS Timer</h1>
+<div id="timer-container">
+  <div id="timer">00:00:00</div>
+  <div>
+    <input type="number" id="hours" placeholder="H" min="0">
+    <input type="number" id="minutes" placeholder="M" min="0" max="59">
+    <input type="number" id="seconds" placeholder="S" min="0" max="59">
+  </div>
+  <button onclick="startTimer()">Start</button>
+  <button onclick="pauseTimer()">Pause</button>
+  <button onclick="resetTimer()">Reset</button>
+</div>
+</body>
+</html>
+<script src="time.js">
+</script>
